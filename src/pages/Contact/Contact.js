@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useLocation } from "react-router-dom";
+
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 
 const Contact = () => {
@@ -8,6 +9,7 @@ const Contact = () => {
   useEffect(() => {
     setPrevLocation(location.state.data);
   }, [location]);
+  //const prevLocation="qaswa"
 
   const [clientName, setclientName] = useState("");
   const [email, setEmail] = useState("");
