@@ -58,27 +58,18 @@ const HeaderBottom = () => {
                 transition={{ duration: 0.5 }}
                 className="absolute top-36 z-50 bg-primeColor w-auto text-[#767676] h-auto p-4 pb-6"
               >
-                <Link to={"category/imprimante"}>
+                <Link to={"shop"}>
                   <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                    Imprimante
+                    New Arrival
                   </li>
                 </Link>
 
-                <Link to={"category/ancre"}>
+                <Link to={"/shop"}>
                   <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                    ancre
+                    Shop
                   </li>
                 </Link>
-                <Link to={"category/Ruban"}>
-                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                    ruban
-                  </li>
-                </Link>
-                <Link to={"category/Bac"}>
-                  <li className="text-gray-400 px-4 py-1 border-b-[1px] border-b-gray-400 hover:border-b-white hover:text-white duration-300 cursor-pointer">
-                    Bac de dechet
-                  </li>
-                </Link>
+                
               </motion.ul>
             )}
           </div>

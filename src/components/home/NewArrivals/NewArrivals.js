@@ -54,55 +54,55 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
-            price="44.00"
-            color="Black"
+            productName="Apricot"
+            price="999"
+            pack="2pack (each 1kg)"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Ripe for the Picking! Discover the Sweetest Selection of Fruits at Unbeatable Prices."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
-            price="250.00"
-            color="Black"
+            productName="Avacado"
+            price="800"
+            pack="2pack (each 1kg)"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Guac On! Elevate Your Meals with Perfectly Ripened Avocados from Our Orchard"
           />
         </div>
         <div className="px-2">
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
-            color="Mixed"
+            productName="Blueberry"
+            price="2000"
+            pack="2pack (each 1kg)"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Berrylicious Bliss Awaits! Dive into Freshness with Our Plump Blueberries Collection"
           />
         </div>
         <div className="px-2">
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
+            productName="Olive"
+            price="1500"
+            pack="1pack (each 1kg)"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Rich, Tangy, and Delicious! Add a Touch of Olive Goodness to Your Meals."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100005"
             img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
+            productName="Avacado"
+            price="800"
+            pack="2pack (each 1kg)"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Guac On! Elevate Your Meals with Perfectly Ripened Avocados from Our Orchard"
           />
         </div>
       </Slider>

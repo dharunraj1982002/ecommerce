@@ -51,7 +51,7 @@ const CustomSlide = ({ Subtext, imgSrc, text, buttonLink, buttonText }) => (
       </Link>
     </div>
     <div style={{ marginLeft: "100px" }}>
-      <Image imgSrc={imgSrc} />
+      <Image imgSrc={imgSrc} style={{width:"317",height:"544"}} />
     </div>
   </div>
 );
@@ -152,25 +152,25 @@ const Banner = () => {
   const slides = [
     {
       imgSrc: bannerImgOne,
-      text: "Enhance Your Printing Experience",
+      text: "Fresh from the farm",
       Subtext:
-        "Explore our premium printers and consumables for exceptional results",
+        "Nourish your body with nature’s bounty",
       buttonLink: "/offer",
       buttonText: "Shop Now",
     },
     {
-      imgSrc: bannerImgOne,
-      text: "Quality Printing Solutions",
+      imgSrc: bannerImgTwo,
+      text: "Just another day in strawberry paradise",
       Subtext:
-        "Discover our wide range of printers and consumables designed for professional printing needs.",
+        "Dont miss to check our other paradise",
       buttonLink: "/shop",
-      buttonText: "About-us",
+      buttonText: "Shop Now",
     },
     {
-      imgSrc: bannerImgOne,
-      text: "Efficiency Redefined",
+      imgSrc: bannerImgThree,
+      text: "Grapes: The Fruit of Hope",
       Subtext:
-        "Maximize productivity with our advanced printers and high-quality consumables. ",
+        "To maximize your hope just contact our cutomer service",
       buttonLink: "/contact",
       buttonText: "Contact-us",
     },

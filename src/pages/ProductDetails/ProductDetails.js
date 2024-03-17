@@ -6,14 +6,10 @@ import { FaDownload } from "react-icons/fa";
 
 const tabs = [
   {
-    id: "Fiche Technique",
-    label: "Fiche Technique",
-  },
-  {
     id: "Description",
     label: "Description",
     content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+      "Healthy Habits Start Here! Dive Into a World of Freshness with Our Exquisite Fruits Collection.",
   },
   {
     id: "Video",
@@ -22,7 +18,7 @@ const tabs = [
       <iframe
         width="560"
         height="315"
-        src="https://www.youtube.com/embed/watch?v=6e0yIRDVPlA&list=RD6e0yIRDVPlA&start_radio=1"
+        src="https://www.youtube.com/embed/a_0AgvcCQ20?si=oddQwf1Zphg5BzSg"
         title="YouTube Video"
         frameBorder="0"
         allowFullScreen
@@ -108,7 +104,7 @@ const ProductDetails = () => {
                           href={productInfo.pdf}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-white"
+                          className="text-black"
                         >
                           Download PDF
                         </a>{" "}

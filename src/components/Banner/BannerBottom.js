@@ -38,7 +38,7 @@ const BannerBottom = () => {
               </g>
             </svg>
           </span>
-          <p className="text-lightText text-base">Two years warranty</p>
+          <p className="text-lightText text-base">Delivery within 24hrs</p>
         </div>
         <div className="flex md:w-auto items-center gap-2 w-72 shadow-sm hover:shadow-md duration-300">
           <span className="text-5xl text-center w-10 ml-1 text-orange-500">
@@ -91,7 +91,7 @@ const BannerBottom = () => {
               ></path>
             </svg>
           </span>
-          <p className="text-lightText text-base">Return policy in 30 days</p>
+          <p className="text-lightText text-base">Return policy in 3 days</p>
         </div>
       </div>
     </div>

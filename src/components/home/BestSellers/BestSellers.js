@@ -16,38 +16,38 @@ const BestSellers = () => {
         <Product
           _id="1011"
           img={bestSellerOne}
-          productName="Flower Base"
-          price="35.00"
-          color="Blank and White"
+          productName="Apple"
+          price="130"
+          pack="1kg"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Taste the Crispness! Indulge in Nature's Sweetest Apples for a Healthy Lifestyle."
         />
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="New Backpack"
-          price="180.00"
-          color="Gray"
+          productName="Banana"
+          price="100"
+          pack="1kg"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Satisfy Your Cravings with Nature's Perfect Snack, Shop Fresh Bananas Today!"
         />
         <Product
           _id="1013"
           img={bestSellerThree}
-          productName="Household materials"
-          price="25.00"
-          color="Mixed"
+          productName="Cherry"
+          price="1000"
+          pack="1kg"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="From Pies to Parfaits, Cherries Add Flavor! Explore Our Premium Selections."
         />
         <Product
           _id="1014"
           img={bestSellerFour}
-          productName="Travel Bag"
-          price="220.00"
-          color="Black"
+          productName="Pomogranate"
+          price="150"
+          pack="1kg"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Healthy and Delicious! Embrace the Goodness of Fresh Pomegranates for a Vibrant Life."
         />
       </div>
     </div>
